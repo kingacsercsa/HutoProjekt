@@ -1,0 +1,94 @@
+
+body {
+   
+    background-color: #87A96B !important;
+}
+
+
+.navbar {
+    background-color: #006B3C 
+}
+
+
+.main-div {
+    background-image: url(Kepek/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-div h1, 
+.main-div p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1,h2{
+    margin:20px auto 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#Focim{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 30px;
+   
+}
+
+
+.card {
+    
+
+ min-height: 450px;
+ max-height: 500px;
+ justify-content: space-between;
+ width: auto;
+ 
+ border-radius: 10px;
+ border: 2px solid black; 
+}
+
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width:90%;
+        
+        
+    }
+    .main-div{
+        background-position:center;
+    }
+}
+
+#video-container{
+    background-image: url(Kepek/app_hatter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+}
